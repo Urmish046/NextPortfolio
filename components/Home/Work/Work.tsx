@@ -11,7 +11,7 @@ const mainProjects = [
     title: "Personal Portfolio",
     category: "Portfolio",
     description: "A portfolio made by Next.js and typescript.",
-    video: "/videos/Portfolio.mp4",
+    video: "/videos/portfolio.mp4",
     tech: ["Next.js", "Typescript"],
     links: { live: "#" } // Placeholder if no live link for robot
   }, {

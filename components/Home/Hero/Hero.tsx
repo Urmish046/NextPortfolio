@@ -169,7 +169,7 @@ const Hero = () => {
             
             {/* ✅ Path Updated: /resume/resume.pdf */}
             <a 
-              href="/resume/resume.pdf" 
+              href="/resume/Resume.pdf" 
               download 
               className="relative group w-full flex items-center justify-between px-6 py-4 bg-[#080808] border border-white/10 rounded-2xl hover:border-pink-500/50 transition-all duration-500 shadow-2xl overflow-hidden"
             >
