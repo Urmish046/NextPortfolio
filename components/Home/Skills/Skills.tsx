@@ -42,7 +42,7 @@ const skillCategories = [
       { name: "Teamwork", level: "Advanced" },
       { name: "Canva / Design", level: "Advanced" },
       {name: "Git & GitHub", level: "Intermediate"},
-      {name: "UI/UX Design", level: "Basic"}
+      {name: "Figma", level: "Intermediate"}
     ]
   }
 ];
