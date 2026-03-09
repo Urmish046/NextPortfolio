@@ -4,36 +4,38 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiExternalLink, FiArrowRight, FiArrowLeft } from "react-icons/fi";
 
-// --- PROJECT DATA (GitHub Links Removed) ---
+// --- PROJECT DATA (Cloudinary Links Updated) ---
 const mainProjects = [
   {
     id: 1,
     title: "Personal Portfolio",
     category: "Portfolio",
     description: "A portfolio made by Next.js and typescript.",
-    video: "/videos/portfolio.mp4",
+    // Cloudinary optimized link
+    video: "https://res.cloudinary.com/dx71stucg/video/upload/q_auto,f_auto/v1773055311/portfolio_ezeryx.mp4",
     tech: ["Next.js", "Typescript"],
-    links: { live: "#" } // Placeholder if no live link for robot
-  }, {
+    links: { live: "#" } 
+  }, 
+  {
     id: 2,
     title: "Fitness Tracker",
     category: "Health & Wellness",
     description: "Workout exercises and diet tracking dashboard.",
-    video: "/videos/Fitness.mp4",
+    // Cloudinary optimized link
+    video: "https://res.cloudinary.com/dx71stucg/video/upload/q_auto,f_auto/v1773055133/Fitness_avg5zw.mp4",
     tech: ["React", "RapidAPI"],
     links: { live: "https://fitness-app-frontend9.netlify.app/" }
-  }
-  ,
+  },
   {
     id: 3,
     title: "EduPortal",
     category: "Management",
     description: "Auto grading & course registration.",
-    video: "/videos/LMSL.mp4",
+    // Cloudinary optimized link
+    video: "https://res.cloudinary.com/dx71stucg/video/upload/q_auto,f_auto/v1773055256/LMSL_s90kpg.mp4",
     tech: ["React", "JavaScript"],
     links: { live: "https://lmslite.netlify.app/" }
   },
-
 ];
 
 const extraProjects = [
@@ -42,17 +44,18 @@ const extraProjects = [
     title: "LMS Lite",
     category: "EdTech",
     description: "Career tracks & interactive modules.",
-    video: "/videos/edup.mp4",
+    // Cloudinary optimized link
+    video: "https://res.cloudinary.com/dx71stucg/video/upload/q_auto,f_auto/v1773054837/edup_tcag0g.mp4",
     tech: ["React", "TailwindCSS"],
     links: { live: "https://educationportal-ep.netlify.app/" }
   },
-
   {
     id: 5,
     title: "Food Delivery",
     category: "E-Commerce",
     description: "Seamless food ordering platform with cart system.",
-    video: "/videos/Food.mp4",
+    // Note: Iska link aapne nahi bheja tha, agar ye bhi Cloudinary par hai to update kar dein
+    video: "/videos/Food.mp4", 
     tech: ["React"],
     links: { live: "https://food-delivery-88.netlify.app/" }
   }
@@ -66,7 +69,7 @@ const PlaybackVideo = ({ src }: { src: string }) => {
     if (videoRef.current) {
       videoRef.current.playbackRate = 2.0;
     }
-  }, []);
+  }, [src]); // Dependency added to handle source changes
 
   return (
     <video
