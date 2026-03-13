@@ -67,8 +67,9 @@ const Contact = () => {
     {
       icon: FiMail,
       title: "Email",
-      value: "urmishzaman@gmail.com",
-      link: "mailto:urmishzaman@gmail.com",
+      value: "urmishshafiq@gmail.com",
+      // ---> CHANGED THE LINK HERE <---
+      link: "mailto:urmishshafiq@gmail.com", 
       color: "text-pink-500",
       bg: "bg-pink-500/10",
       border: "border-pink-500/20"

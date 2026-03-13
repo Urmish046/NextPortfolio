@@ -64,7 +64,7 @@ const Hero = () => {
           <motion.h4 
             className="text-pink-400 font-mono tracking-[0.4em] text-xs mb-4 uppercase"
           >
-              A Certified Frontend Developer
+              Building scalable and modern web applications.
           </motion.h4>
           
           <motion.h1 
@@ -113,7 +113,7 @@ const Hero = () => {
             </motion.a>
 
             <motion.a 
-              href="mailto:urmishzaman@gmail.com"
+              href="mailto:urmishshafiq@gmail.com"
               whileHover={{ y: -5, color: "#e1306c", scale: 1.1 }} 
               className="cursor-pointer transition-all"
             >

@@ -64,11 +64,11 @@ const Footer = () => {
             <ul className="space-y-3 text-xs text-gray-400">
               <li className="flex items-start gap-3">
                 <FiMail className="text-pink-500 text-base" />
-                <span>urmishzaman@gmail.com</span>
+                <span>urmishshafiq@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-green-500 mt-1 shadow-[0_0_8px_#22c55e]"></div>
-                <span>Available for freelance</span>
+                <span>Open to new opportunities</span>
               </li>
             </ul>
           </div>

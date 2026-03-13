@@ -8,14 +8,14 @@ export async function POST(req: Request) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "urmishzaman@gmail.com", // Aapka email
-        pass: "didoiazrbnjnynvk", // Wo copy kiya hua code yahan dalein
+        user: "urmishshafiq@gmail.com", // Aapka email
+        pass: "nykvnmmhqnhuouoq", // Wo copy kiya hua code yahan dalein
       },
     });
 
     const mailOptions = {
       from: email,
-      to: "urmishzaman@gmail.com", // Jidhar aap message receive karna chahte hain
+      to: "urmishshafiq@gmail.com", // Jidhar aap message receive karna chahte hain
       subject: `New Message from Portfolio: ${name}`,
       text: `Sender Name: ${name}\nSender Email: ${email}\n\nMessage:\n${message}`,
       html: `
