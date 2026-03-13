@@ -167,9 +167,9 @@ const Hero = () => {
           <div className="w-full max-w-[280px] relative group/btn">
             <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl blur opacity-20 group-hover/btn:opacity-100 transition duration-1000 animate-pulse"></div>
             
-            {/* ✅ Path Updated: /resume/resume.pdf */}
+            {/* ✅ Path Updated: /resume/Urmish-Resume.pdf */}
             <a 
-              href="/resume/Resume.pdf" 
+              href="/resume/Urmish-Resume.pdf" 
               download 
               className="relative group w-full flex items-center justify-between px-6 py-4 bg-[#080808] border border-white/10 rounded-2xl hover:border-pink-500/50 transition-all duration-500 shadow-2xl overflow-hidden"
             >
